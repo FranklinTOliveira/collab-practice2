@@ -1,7 +1,36 @@
-.container{
+.nav{
+    height: 60px;
     background-color: blue;
 }
 
-.row{
+
+.container{
+    height: 250px;
+    width: 100%;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    border: solid 2px black;
+    padding: 0%;
+    margin: 0%;
+
+}
+
+.fisrtBox{
+    height: 250px;
+    width: 100%;
+    background-color: brown;
+
+}
+.secBox{
+    height: 250px;
+    width: 100%;
+    background-color: brown;
+
+}
+
+.footer{
     height: 100px;
+    background-color: cadetblue;
+
 }
